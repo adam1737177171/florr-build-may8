@@ -1,0 +1,277 @@
+{
+    "class": "map",
+    "compressionlevel": -1,
+    "height": 60,
+    "infinite": false,
+    "layers": [
+        {
+            "compression": "gzip",
+            "data": "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",
+            "encoding": "base64",
+            "height": 60,
+            "id": 1,
+            "name": "bg",
+            "opacity": 1,
+            "type": "tilelayer",
+            "visible": true,
+            "width": 60,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "compression": "gzip",
+            "data": "H4sIAAAAAAAACuVa65HjIAymCmz+UQqlUAqluBSXolLOD33mg/XuJTtOfKdohrFNAD0Rkkhwbg7OJW3r+7S0qE/RPnyjL+pz/S5Ly9pm/V7Xcto36XvROVnfC40VfcccoXnAmxTvrP0zzRFav9C8SH3Ak6jhO2OdcZnnlzbu63Mr+G1pkZ5bG3dczBdwC/HFdCXiDTxnGg8+o+JtcBCdwAN+MCbR2pm/lzkJPAxuh6HFsa6blr7ovoGB5KCyEuLHaYMdcB90WMjektI0KU0bXq+/My0dXsiR9exo3U12j/AxfDfgfE7p9U9ymEh3mfnisWf4iJZTen3LH9vMYRM/8Xo1DDvOxk6fkeMD60PHsKtIe2n2F+J6gqaN51fJWnUMGxLa60/Z6JWw8vwq3L76V+h35TW9CN3tMFQ/cfjyO+z4neDJR+i+TXfT9CoYdt+QO37Ngq9xl3yCPfsatyDWEqv8Dns8XMg3Q7/pbtpeAXQWlVBzl2hVv77mfpyTrDGrLLrPd9N3NfiqW+RHR2xp0aZ9zUPhszK+Ldo02TN81pFjGuW3yaHJrtd82lnbw77Gzah1oKawncfqt9LNZF4GlF/HUGPKRPpO1uxaeUaNCPxm6Niwnxaql8G+J93H6WYSLwXf6lZIv9GSjoedlzzWGl0knwX+nRV+fY2b8Yyh7mWcT9mKn6bzyJF+E8VaGf7agp/2Ne9NXd5w+Gfo2IJN01lUwlfbzqRvMzkx8XzwRvuY84d0N61XAfkt7GeuA0S9fzIDdK8ixG8MD9z7/a9AuT9yfmdNrwCqQR8x1dV3c/8SUDy55cPvvgd9N3Rxh4mz9icg/TqNl80C7d3j3LWsX19jZYeY4wP4FdJvsZIPnYFv/w81IbayqmO63y90Jn2CTUO3Yi0/6OHkXkUs1tsBvq3nONQmreq4+1/bRPnCKots0Vf79k4UddmkOaG5+2DfnkmoZeGsMnc+Uc4gZNdO9WsqX6IYGjoFvybjadItzmDkD7NhfqWrOSeNpc3VdMhXZfJV2aJuV+jijcj2bDH3p3gjhe5OZdzvEB8+f4ddRqJxykNz7gCq6WAPT6TnorGWgJdeBson7la3mOUsThm6NX4pS54PWtKT/BayZ97DqGsh5kIf/s+Su3pu49/HjrZu3GZH3ZgvtkH31Ih/ckfLBH38TXakF+YX6ybyYUI4QOt61yKkU+SVJbR3FVgLcnQ0DrSjf1YZOJUB38ezzHn9TPMgO26QoxCfoJX3MM5gPqew/tTZPPYD5uNbujGQG2TJ8nWh0z3vqVDPTF4LdGfCOYXW7wIH+kXH5T9EnzFzQDgAAA==",
+            "encoding": "base64",
+            "height": 60,
+            "id": 2,
+            "name": "dirt",
+            "opacity": 1,
+            "type": "tilelayer",
+            "visible": true,
+            "width": 60,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "draworder": "topdown",
+            "id": 3,
+            "name": "mobs",
+            "objects": [
+                {
+                    "height": 29841.3,
+                    "id": 1,
+                    "name": "",
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 0.2
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "beetle_hel:3;spider_hel:1;centipede_hel:0.1;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 30017,
+                    "x": 316.339,
+                    "y": 281.19
+                },
+                {
+                    "height": 29841.3,
+                    "id": 2,
+                    "name": "",
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 0.2
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 10
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "beetle_hel:3;spider_hel:1;centipede_hel:0.1;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 30017,
+                    "x": 492.095,
+                    "y": 439.35
+                },
+                {
+                    "height": 29841.3,
+                    "id": 3,
+                    "name": "",
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 0.2
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 20
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "beetle_hel:3;spider_hel:1;centipede_hel:0.1;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 30017,
+                    "x": 316.351,
+                    "y": 404.201
+                },
+                {
+                    "height": 29841.3,
+                    "id": 4,
+                    "name": "",
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 0.2
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 30
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "beetle_hel:3;spider_hel:1;centipede_hel:0.1;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 30017,
+                    "x": 316.351,
+                    "y": 404.201
+                },
+                {
+                    "height": 29841.3,
+                    "id": 5,
+                    "name": "",
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 0.2
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 40
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "beetle_hel:3;spider_hel:1;centipede_hel:0.1;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 30017,
+                    "x": 316.351,
+                    "y": 333.904
+                },
+                {
+                    "height": 29841.3,
+                    "id": 7,
+                    "name": "",
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 0.2
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 50
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "beetle_hel:3;spider_hel:1;centipede_hel:0.1;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 30017,
+                    "x": 415.5,
+                    "y": 311.35
+                },
+                {
+                    "height": 3089.3,
+                    "id": 8,
+                    "name": "",
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 0.1
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 60
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "beetle_hel:3;spider_hel:1;centipede_hel:0.1;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 3089,
+                    "x": 13819.1,
+                    "y": 13816
+                }
+            ],
+            "opacity": 1,
+            "type": "objectgroup",
+            "visible": true,
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "nextlayerid": 4,
+    "nextobjectid": 9,
+    "orientation": "orthogonal",
+    "properties": [
+        {
+            "name": "display_name",
+            "type": "string",
+            "value": "Hel"
+        },
+        {
+            "name": "minimap",
+            "type": "bool",
+            "value": false
+        },
+        {
+            "name": "pvp",
+            "type": "bool",
+            "value": true
+        },
+        {
+            "name": "repeat_border",
+            "type": "bool",
+            "value": true
+        }
+    ],
+    "renderorder": "right-down",
+    "tiledversion": "1.10.2",
+    "tileheight": 512,
+    "tilesets": [
+        {
+            "firstgid": 1,
+            "source": "../tiles/tileset.tsx"
+        }
+    ],
+    "tilewidth": 512,
+    "type": "map",
+    "version": "1.10",
+    "width": 60
+}

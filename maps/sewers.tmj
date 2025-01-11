@@ -1,0 +1,924 @@
+{
+    "class": "map",
+    "compressionlevel": -1,
+    "height": 90,
+    "infinite": false,
+    "layers": [
+        {
+            "class": "layer",
+            "compression": "gzip",
+            "data": "H4sIAAAAAAAACu3USW7EMAwEQL/K/39aLsk18FiiuEw10KfAFFnA5L6u6/7tX+5N3T1vSjl/j/OurO4c+fbqjpyfvb26407nk2+efoNzzx05c+Zc64YOO3L+/3vZF85n4v9G3h6cOXPmzJkzZ86cOXPm/PSbt+HMuaLzzrfe/q36zZzffbMazpzfvrd7/y4zOXOeNPOkZRcTzn1ncuY8aSZnzpNmcuY8aSZnzpNmcuZceWZEOHM+PbP7Lpz77lHltkq7RDpXCuczmeycfVulXTif3SMi2bdx5rwz2bdx5rwz2bdVcp5ezpwnlTPnSeXMeVI5c55Uzj2co5LtwrlnV++KSrYL555dvSsq2S6ce3b1rqhku3Du2dW7opLtwrlnV++KSrYL555dvUs+C+czqeac/Tuv1qhk31WtUcm+q1qjkn1XtUYl+y5VVVXVyf0BXTFqLpB+AAA=",
+            "encoding": "base64",
+            "height": 90,
+            "id": 5,
+            "name": "bg",
+            "opacity": 1,
+            "type": "tilelayer",
+            "visible": true,
+            "width": 90,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "class": "layer",
+            "compression": "gzip",
+            "data": "H4sIAAAAAAAACu3XQYoCMRBAUU/l/Y82CAMDs2gxpr/p+D5kaaV8YqO321/33zOr2fN2iXPTCs73Sefdnc+8m/P3OZd31ndwbu7g3NzBubmDc3MH5+aOWb+pnOPP4tM77XiOnGc1Mu/dHWa9hzP34NzswbnZg3OzB+dmD87NHpybPTg3e3Bu9vhW51f/4/0/r+7BmfOKd3Ju7tzB+Yzv8sw9n72O85w9n71udecrzeTczOTczCwtR/fYYSbnZibnZibnZibnZibnZibnZibnZibnZibnZibnZibnsZlnnCLOTVdxHm2VXTg3cW662rN05WfwUZybPDeaODft/F19tMounJs4N3Fu4qwZcW7i3MS5iXMT5ybOTZybODdxbnrXeef/yjPj3MS5iXMT5ybOTZybODdxbuLcxLmJc9Oqzrue0T6999XOaKvts2ucmzg3cW7iLEmSdL1+AA7QdryQfgAA",
+            "encoding": "base64",
+            "height": 90,
+            "id": 3,
+            "name": "grate_bg",
+            "opacity": 1,
+            "properties": [
+                {
+                    "name": "collisions",
+                    "type": "bool",
+                    "value": false
+                }
+            ],
+            "type": "tilelayer",
+            "visible": true,
+            "width": 90,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "compression": "gzip",
+            "data": "H4sIAAAAAAAACu1c4ZWDIAx2lG5R21+M0lEcxVEcxVHOu9oejRAwJJhivvfyapWE8F0MEbl23RN91w3X5fP6PC4Gt71WsHAxHc3zrevGpe2DQxZb016fFx3n2ZjBcUhgu2TfGuLZ1ykVyhj8WCvs2+WM0XgW5Vkyb0T7jencn98ve2TRGUvGcHvmgDEiv32Mfh8BH//aLXYeyBhV8UyMR/G5lzIuRP8Qf76QZ4q+xXOFPrTNgxrGINEHmIOwmjFL7t79cc+seSk6Bfpz5Bx2/ndcs9eHi+i+bSxz4iXGswmfwJzZM9WOJhueP9B/3nOwLtwtiTqTTYegP4Ljzfd7uI5P6nl+DB7PMJ6H2N+AAoq9Uh+4xsDgx4TwPAny7BLNQzqlfZJRykWCZ8l4donmLD4IxbPj1DeeWf2wvFHfDweuSfIspsOp79kpzc/Gc54dSZ5PWdet78rm3nteBs/vrsefyTfvqTA/zsqzr0OVAJfR++Gs9UbPsN6wJzcYz5tn9bEPvLd6HYN3ZA7xA15TNQ+WrotSeM6Nh8D4HLiG5Q1VPHPnTKRP0rh35GDH0R/iR1HeqMjzbj9TetrrjVv3kR83smfdFHu3D/ykxnMuly5XjwJue6tNUi7dYZPFF+3xnGFTmudsmzVzcMIPCU5IuVTCZiKe2ceO+CHNCQtqz4Pc0MTJDpssvlTmmT1HabKZmOtq5o0z5WfsGoufiB/fmDeybe6YB0UhdI9L8CxRP397PEvnIqqeQ66J4gTxTHru5kaFeOayKZGfj6qfXaJ5rk3Rui6wH/nRb/fn/h0H9ucGr1ne2NqUkAbqZxZU4FkUmp6RMXhr3mNALv3n/tu3RPbuQhlz18Gp+JbnwQJfqj2L1PYDzFmvuec1/8D5C37Cc6FjOOeFrs399p2vYxpiESffMmdpneswSNcbmuTgvCE6D0b2tPjf4Sc8xtrE7Pjz4Kgtnu94TozlwU2urFn/pyBR+xD9mLjvTy33atfpqX2kc6nVdW8/zsTzYb5U4PlQKMrPrcezCp7BXrlNXRSptbA2H+cW+8OBw1OTn1uHlnqjdWjJG63DeK4Dyxt1YPNgHVg814HFcx2UPnffwF4EsG4JBVvXhOdmym8Fa0VpvbH+nV7S1JoEJ0rzs8eza21NghOlecP7O7GvAzUczyX6xjMChnhmz8snyBsU/WHNzVh+JuXuhnl2BP3h+s81N8/NgCGep+s/15Y3ImCo69j5bTSeh5Jx2TyYB6a8YfGcgOa8Af6PI7RG4q+NPHp8vSR2PbTOAo/3rs9sbFB+i6kWz62KtueUVkVbfkb20sLPkMD2mM4IzofawjaxPlP9kfaSWF1XB1Zv1IHFcx0Yz3Ww7j8MzSH+fBCS1DyS/dt9BoPBYDAY2sIP2hpoWJB+AAA=",
+            "encoding": "base64",
+            "height": 90,
+            "id": 4,
+            "name": "grate",
+            "opacity": 1,
+            "type": "tilelayer",
+            "visible": true,
+            "width": 90,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "compression": "gzip",
+            "data": "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",
+            "encoding": "base64",
+            "height": 90,
+            "id": 2,
+            "name": "dirt",
+            "opacity": 1,
+            "type": "tilelayer",
+            "visible": true,
+            "width": 90,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "draworder": "topdown",
+            "id": 6,
+            "name": "pipes",
+            "objects": [
+                {
+                    "gid": 59,
+                    "height": 1024,
+                    "id": 1,
+                    "name": "",
+                    "rotation": 0,
+                    "type": "",
+                    "visible": true,
+                    "width": 1024,
+                    "x": 1536,
+                    "y": 14868.6
+                }
+            ],
+            "opacity": 1,
+            "type": "objectgroup",
+            "visible": true,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "draworder": "topdown",
+            "id": 7,
+            "name": "mobs",
+            "objects": [
+                {
+                    "height": 0,
+                    "id": 2,
+                    "name": "",
+                    "polygon": [
+                        {
+                            "x": 816,
+                            "y": 4304
+                        },
+                        {
+                            "x": 10144,
+                            "y": 4304
+                        },
+                        {
+                            "x": 10128,
+                            "y": -64
+                        },
+                        {
+                            "x": 10464,
+                            "y": -32
+                        },
+                        {
+                            "x": 10512,
+                            "y": -544
+                        },
+                        {
+                            "x": 11104,
+                            "y": -560
+                        },
+                        {
+                            "x": 11088,
+                            "y": 4304
+                        },
+                        {
+                            "x": 13632,
+                            "y": 4304
+                        },
+                        {
+                            "x": 13632,
+                            "y": 5136
+                        },
+                        {
+                            "x": 11056,
+                            "y": 5120
+                        },
+                        {
+                            "x": 11056,
+                            "y": 14064
+                        },
+                        {
+                            "x": 10160,
+                            "y": 14048
+                        },
+                        {
+                            "x": 10176,
+                            "y": 5136
+                        },
+                        {
+                            "x": 816,
+                            "y": 5136
+                        }
+                    ],
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 2
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 15
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "spider:1;fly:3;roach:1;moth:3;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 0,
+                    "x": 1664,
+                    "y": 944
+                },
+                {
+                    "height": 12768,
+                    "id": 3,
+                    "name": "",
+                    "properties": [
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 5
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "spider:1;fly:3;roach:1;moth:3;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 768,
+                    "x": 1632,
+                    "y": 1008
+                },
+                {
+                    "height": 0,
+                    "id": 5,
+                    "name": "",
+                    "polygon": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "x": 0,
+                            "y": 832
+                        },
+                        {
+                            "x": 3120,
+                            "y": 832
+                        },
+                        {
+                            "x": 3120,
+                            "y": 8528
+                        },
+                        {
+                            "x": 7216,
+                            "y": 8528
+                        },
+                        {
+                            "x": 7216,
+                            "y": 10064
+                        },
+                        {
+                            "x": 8112,
+                            "y": 10064
+                        },
+                        {
+                            "x": 8112,
+                            "y": 7616
+                        },
+                        {
+                            "x": 4000,
+                            "y": 7616
+                        },
+                        {
+                            "x": 4048,
+                            "y": 816
+                        },
+                        {
+                            "x": 7488,
+                            "y": 848
+                        },
+                        {
+                            "x": 7488,
+                            "y": -64
+                        },
+                        {
+                            "x": 4000,
+                            "y": -48
+                        },
+                        {
+                            "x": 4016,
+                            "y": -3264
+                        },
+                        {
+                            "x": 7712,
+                            "y": -3248
+                        },
+                        {
+                            "x": 7696,
+                            "y": -4176
+                        },
+                        {
+                            "x": 3104,
+                            "y": -4160
+                        },
+                        {
+                            "x": 3120,
+                            "y": -48
+                        }
+                    ],
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 2
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 25
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "spider:1;fly:3;roach:1;moth:2;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 0,
+                    "x": 15380,
+                    "y": 5232
+                },
+                {
+                    "height": 0,
+                    "id": 6,
+                    "name": "",
+                    "polygon": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "x": -32,
+                            "y": -912
+                        },
+                        {
+                            "x": 4448,
+                            "y": -912
+                        },
+                        {
+                            "x": 4448,
+                            "y": 3184
+                        },
+                        {
+                            "x": 7536,
+                            "y": 3184
+                        },
+                        {
+                            "x": 7536,
+                            "y": 4064
+                        },
+                        {
+                            "x": 4464,
+                            "y": 4096
+                        },
+                        {
+                            "x": 4464,
+                            "y": 11792
+                        },
+                        {
+                            "x": 432,
+                            "y": 11776
+                        },
+                        {
+                            "x": 432,
+                            "y": 10864
+                        },
+                        {
+                            "x": 3568,
+                            "y": 10880
+                        },
+                        {
+                            "x": 3552,
+                            "y": 4096
+                        },
+                        {
+                            "x": -208,
+                            "y": 4080
+                        },
+                        {
+                            "x": -224,
+                            "y": 3216
+                        },
+                        {
+                            "x": 3568,
+                            "y": 3216
+                        },
+                        {
+                            "x": 3536,
+                            "y": -32
+                        }
+                    ],
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 2
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 35
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "spider:1;fly:3;roach:1;moth:2;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 0,
+                    "x": 23140,
+                    "y": 1984
+                },
+                {
+                    "height": 0,
+                    "id": 8,
+                    "name": "",
+                    "polygon": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "x": 832,
+                            "y": -32
+                        },
+                        {
+                            "x": 832,
+                            "y": 10208
+                        },
+                        {
+                            "x": 5728,
+                            "y": 10176
+                        },
+                        {
+                            "x": 5728,
+                            "y": 12608
+                        },
+                        {
+                            "x": 0,
+                            "y": 12544
+                        }
+                    ],
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 2
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 20
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "fly:10;spider:1;roach:1;moth:2;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 0,
+                    "x": 11840,
+                    "y": 15424
+                },
+                {
+                    "height": 0,
+                    "id": 9,
+                    "name": "",
+                    "polygon": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "x": 832,
+                            "y": -32
+                        },
+                        {
+                            "x": 832,
+                            "y": 12544
+                        },
+                        {
+                            "x": -4960,
+                            "y": 12608
+                        },
+                        {
+                            "x": -4960,
+                            "y": 10240
+                        },
+                        {
+                            "x": 32,
+                            "y": 10240
+                        }
+                    ],
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 2
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 30
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "fly:10;spider:1;roach:1;moth:2;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 0,
+                    "x": 22592,
+                    "y": 15424
+                },
+                {
+                    "height": 0,
+                    "id": 10,
+                    "name": "",
+                    "polygon": [
+                        {
+                            "x": -16,
+                            "y": -128
+                        },
+                        {
+                            "x": -32,
+                            "y": 768
+                        },
+                        {
+                            "x": 5104,
+                            "y": 776
+                        },
+                        {
+                            "x": 5128,
+                            "y": 5440
+                        },
+                        {
+                            "x": 6016,
+                            "y": 5440
+                        },
+                        {
+                            "x": 6040,
+                            "y": 784
+                        },
+                        {
+                            "x": 13296,
+                            "y": 784
+                        },
+                        {
+                            "x": 13304,
+                            "y": 5528
+                        },
+                        {
+                            "x": 14208,
+                            "y": 5536
+                        },
+                        {
+                            "x": 14216,
+                            "y": -160
+                        },
+                        {
+                            "x": 9568,
+                            "y": -128
+                        },
+                        {
+                            "x": 9632,
+                            "y": -3344
+                        },
+                        {
+                            "x": 12688,
+                            "y": -3304
+                        },
+                        {
+                            "x": 12704,
+                            "y": -4272
+                        },
+                        {
+                            "x": 4064,
+                            "y": -4264
+                        },
+                        {
+                            "x": 4064,
+                            "y": -3296
+                        },
+                        {
+                            "x": 8704,
+                            "y": -3296
+                        },
+                        {
+                            "x": 8680,
+                            "y": -176
+                        }
+                    ],
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 2
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 45
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "spider:1;fly:2;roach:1;moth:1;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 0,
+                    "x": 30784,
+                    "y": 5280
+                },
+                {
+                    "height": 0,
+                    "id": 11,
+                    "name": "",
+                    "polygon": [
+                        {
+                            "x": 0,
+                            "y": 0
+                        },
+                        {
+                            "x": 928,
+                            "y": 0
+                        },
+                        {
+                            "x": 928,
+                            "y": 10976
+                        },
+                        {
+                            "x": -10752,
+                            "y": 10944
+                        },
+                        {
+                            "x": -10720,
+                            "y": -128
+                        },
+                        {
+                            "x": -2688,
+                            "y": -128
+                        },
+                        {
+                            "x": -2624,
+                            "y": 10016
+                        },
+                        {
+                            "x": -3552,
+                            "y": 10016
+                        },
+                        {
+                            "x": -3584,
+                            "y": 736
+                        },
+                        {
+                            "x": -9792,
+                            "y": 768
+                        },
+                        {
+                            "x": -9824,
+                            "y": 10112
+                        },
+                        {
+                            "x": 64,
+                            "y": 10080
+                        }
+                    ],
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 2
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 55
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "spider:1;fly:2;roach:1;moth:1;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 0,
+                    "x": 44064,
+                    "y": 10912
+                },
+                {
+                    "height": 912,
+                    "id": 13,
+                    "name": "",
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 2
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 40
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "spider:1;fly:2;roach:1;moth:1;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 8768,
+                    "x": 23504,
+                    "y": 23600
+                },
+                {
+                    "height": 864,
+                    "id": 14,
+                    "name": "",
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 2
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 50
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "spider:1;fly:2;roach:1;moth:1;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 8096,
+                    "x": 32288,
+                    "y": 23600
+                },
+                {
+                    "height": 18416,
+                    "id": 15,
+                    "name": "",
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 3
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 60
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "spider:1;fly:2;roach:1;moth:1;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 944,
+                    "x": 40480,
+                    "y": 21984
+                },
+                {
+                    "height": 928,
+                    "id": 16,
+                    "name": "",
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 4
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 65
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "spider:1;fly:2;roach:1;moth:1;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 26528,
+                    "x": 13856,
+                    "y": 39456
+                },
+                {
+                    "height": 9680,
+                    "id": 17,
+                    "name": "",
+                    "properties": [
+                        {
+                            "name": "density",
+                            "type": "float",
+                            "value": 6
+                        },
+                        {
+                            "name": "difficulty",
+                            "type": "float",
+                            "value": 70
+                        },
+                        {
+                            "name": "mobs",
+                            "type": "string",
+                            "value": "spider:1;fly:2;roach:1;moth:1;"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "spawn_mobs",
+                    "visible": true,
+                    "width": 11168,
+                    "x": 2592,
+                    "y": 33312
+                }
+            ],
+            "opacity": 1,
+            "type": "objectgroup",
+            "visible": true,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "draworder": "topdown",
+            "id": 9,
+            "name": "checkpoints",
+            "objects": [
+                {
+                    "height": 592,
+                    "id": 18,
+                    "name": "",
+                    "rotation": 0,
+                    "type": "checkpoint",
+                    "visible": true,
+                    "width": 872,
+                    "x": 1616,
+                    "y": 13832
+                }
+            ],
+            "opacity": 1,
+            "type": "objectgroup",
+            "visible": true,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "draworder": "topdown",
+            "id": 8,
+            "name": "warps",
+            "objects": [
+                {
+                    "height": 0,
+                    "id": 12,
+                    "name": "to_garden",
+                    "point": true,
+                    "properties": [
+                        {
+                            "name": "map",
+                            "type": "string",
+                            "value": "garden"
+                        },
+                        {
+                            "name": "warp_point",
+                            "type": "string",
+                            "value": "to_sewers"
+                        }
+                    ],
+                    "rotation": 0,
+                    "type": "warp",
+                    "visible": true,
+                    "width": 0,
+                    "x": 2048,
+                    "y": 14336
+                }
+            ],
+            "opacity": 1,
+            "type": "objectgroup",
+            "visible": true,
+            "x": 0,
+            "y": 0
+        }
+    ],
+    "nextlayerid": 10,
+    "nextobjectid": 19,
+    "orientation": "orthogonal",
+    "properties": [
+        {
+            "name": "display_name",
+            "type": "string",
+            "value": "Sewers"
+        }
+    ],
+    "renderorder": "right-down",
+    "tiledversion": "1.10.2",
+    "tileheight": 512,
+    "tilesets": [
+        {
+            "firstgid": 1,
+            "source": "../tiles/tileset.tsx"
+        }
+    ],
+    "tilewidth": 512,
+    "type": "map",
+    "version": "1.10",
+    "width": 90
+}
